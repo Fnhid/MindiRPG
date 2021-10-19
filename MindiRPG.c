@@ -480,6 +480,7 @@ void gameOver(){
     printf("Designed by Fnhid\n");
     sleep(3);
     printf("Copyrightⓒ2021 Fnhid. All rights reserved.\n");
+    printf("You can find this source code in : https://github.com/Fnhid/MindiRPG\n");
     sleep(1);
     printf("\n\n\n\n\n\n\n");
     printf("===========\n");
