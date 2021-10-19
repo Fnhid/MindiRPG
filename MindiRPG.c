@@ -1,3 +1,7 @@
+// MindiRPG v1.0
+// How to compile :
+// Normal version : gcc -o MindiRPG MindiRPG.c
+// Leakable version : gcc -o MindiRPG MindiRPG.c -no-pie -z relro -fno-stack-protector  
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
