@@ -56,7 +56,7 @@ int main(){
     printf("용사의 이름은? [최대 20자] > ");
     scanf("%s", tmpchar);
     strcpy(player.name, tmpchar);
-    if(!strcmpi(player.name, "MinDi")){
+    if(!strcasecmp(player.name, "MinDi")){
         printf("사망했습니다..\n");
         exit(1);
     }
