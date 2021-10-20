@@ -51,7 +51,7 @@ void gameOver();
 int main(){
     int choose;
     char tmpchar[20];
-    printf("MinDiRPG v1.0에 오신 것을 환영합니다!\n");
+    printf("MinDiRPG v1.1에 오신 것을 환영합니다!\n");
     printf("사냥을 통해 강해져서 용을 잡으세요!\n");
     printf("용사의 이름은? [최대 20자] > ");
     scanf("%s", tmpchar);
