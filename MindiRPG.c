@@ -267,7 +267,7 @@ void hunt(){
                         gremlin.hp -= playerAttack(gremlin.hp);
                     else{
                         printf("올바른 입력이 아닙니다! 당신의 공격은 빗나갔습니다!\n");
-                        printf("적이 공격합니다!");
+                        printf("적이 공격합니다!\n");
                         player.hp -= mobAttack(gremlin.attack);
                     }
                     }
