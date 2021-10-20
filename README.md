@@ -3,4 +3,4 @@ v1.1 / KDMHS Programming Game Assignment. 생각나는 대로 막 쓰고 붙여�
 
 == Update Note ==<br>
 v1.0 MindiRPG init version. 5시간 동안 열심히 끄적여 봤습니다.<br>
-v1.1 MindiRPG player.name updated
+v1.1 MindiRPG player.name updated and some bug patch
