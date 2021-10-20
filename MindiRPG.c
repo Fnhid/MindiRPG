@@ -1,4 +1,4 @@
-// MindiRPG v1.0
+// MindiRPG v1.1
 // How to compile :
 // Normal version : gcc -o MindiRPG MindiRPG.c
 // Leakable version : gcc -o MindiRPG MindiRPG.c -no-pie -z relro -fno-stack-protector  
@@ -9,11 +9,11 @@
 
 int pattern;
 struct Mob gremlin;
-    struct Mob cobolt;
-    struct Mob goblin;
-    struct Mob orc;
-    struct Mob giant;
-    struct Mob dragon;
+struct Mob cobolt;
+struct Mob goblin;
+struct Mob orc;
+struct Mob giant;
+struct Mob dragon;
 struct Character {
     int hp;
     int mp;
@@ -56,6 +56,10 @@ int main(){
     printf("용사의 이름은? [최대 20자] > ");
     scanf("%s", tmpchar);
     strcpy(player.name, tmpchar);
+    if(!strcmpi(player.name, "MinDi")){
+        printf("사망했습니다..\n");
+        exit(1);
+    }
     printf("안녕하세요! %s!\n", player.name);
     characterDefault();
     mobDefault();
